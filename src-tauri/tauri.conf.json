@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "tauri-updater-test",
-    "version": "0.0.0"
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -34,7 +34,12 @@
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": true,
+      "endpoints": [
+        "https://gist.githubusercontent.com/Kumassy/83b49bbbf43eb88c71d471fd057d506c/raw/f69c9c4422f887026b0c82daf52b4f430f61907a/tauri-updater-test-packages.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDk2NTMyNkFDRTkyMTExMzEKUldReEVTSHByQ1pUbHN6bGR1Y3ZydzROR0FFRjJJVTBFNldHTW53Q1hkZXJhOTJsendmQXNRVkkK"
     },
     "windows": [
       {
