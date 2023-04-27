@@ -71,7 +71,7 @@ pub fn app() -> Html {
             </div>
 
             <p>{"Click on the Tauri and Yew logos to learn more."}</p>
-            <p>{"This is version 1.1.0."}</p>
+            <p>{"This is version 1.1.1."}</p>
 
             <p>
                 {"Recommended IDE setup: "}
